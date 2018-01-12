@@ -112,7 +112,7 @@ gulp.task('img', function() {
 
 // Сборка проекта
 
-gulp.task('build', ['clean', 'img', 'stylus', 'scripts'], function() {
+gulp.task('build', ['clean', 'img', 'stylus', 'scripts', 'sass'], function() {
     var buildCss = gulp.src('app/style/css/*.css')
         .pipe(gulp.dest('dist/css'));
 
