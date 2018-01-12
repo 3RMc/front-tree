@@ -86,7 +86,8 @@ gulp.task('scripts', function() {
 });
 
 // Слежение
-gulp.task('watch', ['browsersync', 'stylus', 'scripts'], function() {
+gulp.task('watch', ['browsersync', 'stylus', 'scripts', 'sass'], function() {
+    gulp.watch('app/styles/sass/**/*.sass', ['sass']);
     gulp.watch('app/styles/stylus/**/*.styl', ['stylus']);
     gulp.watch('app/pug/**/*.pug', ['pug']);
     gulp.watch('app/*.html', browsersync.reload);
