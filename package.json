@@ -1,0 +1,31 @@
+{
+  "name": "frontree",
+  "version": "1.0.0",
+  "description": "\u0016\u0016site with links for the frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "3Rmc",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "concat": "^1.0.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pngquant": "^1.0.12",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "jquery": "^3.2.1",
+    "uglify": "^0.1.5"
+  }
+}
