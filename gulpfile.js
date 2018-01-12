@@ -1,16 +1,18 @@
-var gulp = require('gulp'),
+var gulp         = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
-    browsersync = require('browser-sync'),
-    cache = require('gulp-cache'),
-    concat = require('gulp-concat'),
-    del = require('del'),
-    imagemin = require('gulp-imagemin'),
-    notify = require('gulp-notify'),
-    plumber = require('gulp-plumber'),
-    pngquant = require('imagemin-pngquant'),
-    sass = require('gulp-sass'),
-    stylus = require('gulp-stylus'),
-    uglify = require('gulp-uglify');
+    browsersync  = require('browser-sync'),
+    cache        = require('gulp-cache'),
+    concat       = require('gulp-concat'),
+    csscomb      = require('gulp-csscomb'),
+    cssmin       = require('gulp-cssmin'),
+    del          = require('del'),
+    imagemin     = require('gulp-imagemin'),
+    notify       = require('gulp-notify'),
+    plumber      = require('gulp-plumber'),
+    pngquant     = require('imagemin-pngquant'),
+    sass         = require('gulp-sass'),
+    stylus       = require('gulp-stylus'),
+    uglify       = require('gulp-uglify');
 
 
 //Работа со Stylus
@@ -25,6 +27,7 @@ gulp.task('stylus', function () {
         return "Message to the notifier: " + error.message;
     }))
     .pipe(autoprefixer(['last 2 version']))
+    .pipe(csscomb())
     .pipe(gulp.dest('app/style/css'))
     .pipe(browsersync.reload({
         stream: true
@@ -43,6 +46,7 @@ gulp.task('sass', function () {
             return "Message to the notifier: " + error.message;
         }))
         .pipe(autoprefixer(['last 2 version']))
+        .pipe(csscomb())
         .pipe(gulp.dest('app/style/css'))
         .pipe(browsersync.reload({
             stream: true
@@ -60,6 +64,13 @@ gulp.task('pug', function() {
             return "Message to the notifier: " + error.message;
         }))
         .pipe(gulp.dest('app'));
+});
+
+//Минификация CSS
+gulp.task('cssmin', function(){
+    return gulp.src('app/css/**/*.css')
+        .pipe(cssmin())
+        .pipe(gulp.dest('app/mincss'))
 });
 
 // Browsersync
@@ -112,8 +123,8 @@ gulp.task('img', function() {
 
 // Сборка проекта
 
-gulp.task('build', ['clean', 'img', 'stylus', 'scripts', 'sass'], function() {
-    var buildCss = gulp.src('app/style/css/*.css')
+gulp.task('build', ['clean', 'img', 'stylus', 'scripts', 'sass', 'cssmin'], function() {
+    var buildCss = gulp.src('app/style/mincss/*.css')
         .pipe(gulp.dest('dist/css'));
 
     var buildFonts = gulp.src('app/style/fonts/**/*')
