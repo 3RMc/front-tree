@@ -1,0 +1,57 @@
+/* Большие экраны */
+@media (min-width: 1200px)
+  header
+    display grid
+
+    grid-template-columns 100% auto
+    grid-template-rows 100px 500px
+
+    background url("../img/svg/banner-without-header.svg")
+    background-size 100% 100%
+    background-repeat no-repeat
+
+    .header-nav
+      display inline-grid
+
+      grid-template-columns 100px 100px 100px
+      grid-template-rows 100px
+
+      min-width 400px
+      min-height 100px
+
+      background url("../img/svg/header.svg")
+      background-size 100%
+      background-repeat no-repeat
+
+      font-family: 'Marck Script', cursive;
+      font-size 30px
+
+
+      color white
+
+
+
+/*
+@media (min-width: 992px) and (max-width: 1199px)
+
+
+ Portrait tablets and small desktops
+@media (min-width: 768px) and (max-width: 991px)
+
+
+
+ Landscape phones and portrait tablets
+@media (max-width: 767px)
+
+
+ Landscape phones and smaller */
+@media screen and (max-width: 480px)
+  .header-nav
+    background-image none
+    background-color white
+
+
+
+
+
+
