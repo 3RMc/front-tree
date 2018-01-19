@@ -2991,7 +2991,7 @@ button {
 .sandwich .sandwich-line--bottom {
   top: 29px;
 }
-@media (min-width: 1200px) {
+@media all {
   header {
     display: -ms-grid;
     display: grid;
@@ -3012,8 +3012,8 @@ button {
     display: inline-grid;
     -ms-grid-columns: 40% 20% 20% 20%;
         grid-template-columns: 40% 20% 20% 20%;
-    -ms-grid-rows: 100px;
-        grid-template-rows: 100px;
+    -ms-grid-rows: 130px;
+        grid-template-rows: 130px;
     min-width: 400px;
     min-height: 100px;
     width: 100%;
@@ -3030,7 +3030,6 @@ button {
     color: #fff;
   }
   header .header-nav .header-nav__item:nth-of-type(1n+2) {
-    margin-bottom: 30px;
     font-size: 0.6em;
   }
   header .header-nav .header-nav__item {
@@ -3040,8 +3039,10 @@ button {
         justify-content: center;
     -ms-flex-align: center;
         align-items: center;
+    margin-bottom: 60px;
   }
   header .header-nav .header-nav__item .header-nav__icon-logo {
+    margin-bottom: -25px;
     width: 2em;
     height: 2em;
   }
@@ -3053,12 +3054,24 @@ button {
     -ms-flex-pack: start;
         justify-content: start;
   }
-  header .header-nav .header-nav__title .header-nav__title-logo {
-    margin-bottom: 30px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  header .header-nav .header-nav__item {
+    margin-bottom: 80px;
+  }
+  header .header-nav .header-nav__item .header-nav__icon-logo {
+    width: 1.8em;
+    height: 1.8em;
+  }
+}
+@media (min-width: 481px) and (max-width: 991px) {
+  header .header-nav {
+    background-image: none;
+    background-color: #000;
   }
 }
 @media screen and (max-width: 480px) {
-  .header-nav {
+  header .header-nav {
     background-image: none;
     background-color: #fff;
   }

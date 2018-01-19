@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef9f5adf-61b6-4f08-8137-34483491aeb0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/js/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/js/libs.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/libs/validate/jquery.validate.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/pug/index.pug" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/pug/layout/main.pug" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/pug/modules/footer.pug" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/pug/modules/header.pug" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/fonts/fonts.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/img/svg/Index img.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/_common_styles.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/_libs.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/_media.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/_mixins.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/_vars.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/main.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/modules/_footer.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/modules/_header.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/modules/_menu.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/sass/page/_index.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/_common_styles.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/_libs.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/_media.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/_mixins.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/_vars.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/main.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/modules/_footer.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/modules/_header.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/modules/_menu.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/style/stylus/page/_index.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/black_tree.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/white_tree.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/dev/static/css/main.css" afterPath="$PROJECT_DIR$/dev/static/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/dev/static/stylus/modules/_header.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/modules/_header.styl" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer-info" afterPath="" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer-info.cmd" afterPath="" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/browser-sync" afterPath="$PROJECT_DIR$/node_modules/.bin/browser-sync" />
@@ -17318,8 +17283,6 @@
       <change beforePath="$PROJECT_DIR$/node_modules/zlib-browserify/readme.md" afterPath="" />
       <change beforePath="$PROJECT_DIR$/node_modules/zlib-browserify/test/zlib.test.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/node_modules/zlib-browserify/zlib.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17329,7 +17292,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/pug/modules/header.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.styl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/_header.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+              <folding>
+                <marker date="1516362131614" expanded="true" signature="1279:1425" ph="{...}" />
+                <marker date="1516362131614" expanded="true" signature="1300:1425" ph="{...}" />
+                <marker date="1516362131614" expanded="true" signature="1328:1425" ph="{...}" />
+                <marker date="1516362131614" expanded="true" signature="1393:1425" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1786">
+              <caret line="3034" column="23" lean-forward="false" selection-start-line="3034" selection-start-column="23" selection-end-line="3034" selection-end-column="23" />
+              <folding>
+                <marker date="1516362122791" expanded="true" signature="50209:50295" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -17360,10 +17361,10 @@
         <option value="$PROJECT_DIR$/../frontree/app/style/stylus/modules/_header.styl" />
         <option value="$PROJECT_DIR$/dev/static/fonts/fonts.css" />
         <option value="$PROJECT_DIR$/dev/index.html" />
-        <option value="$PROJECT_DIR$/dev/static/css/main.css" />
         <option value="$PROJECT_DIR$/dev/pug/pages/index.pug" />
         <option value="$PROJECT_DIR$/dev/static/stylus/main.styl" />
         <option value="$PROJECT_DIR$/dev/pug/modules/header.pug" />
+        <option value="$PROJECT_DIR$/dev/static/css/main.css" />
         <option value="$PROJECT_DIR$/dev/static/stylus/modules/_header.styl" />
       </list>
     </option>
@@ -17419,6 +17420,47 @@
               <item name="port-of-olio" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="port-of-olio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port-of-olio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pug" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="port-of-olio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port-of-olio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pug" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="port-of-olio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port-of-olio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="port-of-olio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port-of-olio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="port-of-olio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port-of-olio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stylus" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="port-of-olio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port-of-olio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stylus" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -17462,15 +17504,16 @@
       <workItem from="1515670144017" duration="13791000" />
       <workItem from="1515775153854" duration="14916000" />
       <workItem from="1515946891074" duration="607000" />
-      <workItem from="1516109678367" duration="27187000" />
+      <workItem from="1516109678367" duration="30864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90909000" />
+    <option name="totallyTimeSpent" value="94586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -17479,7 +17522,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -17802,9 +17845,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="2887" column="13" lean-forward="false" selection-start-line="2887" selection-start-column="2" selection-end-line="2887" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="1786">
+          <caret line="3034" column="23" lean-forward="false" selection-start-line="3034" selection-start-column="23" selection-end-line="3034" selection-end-column="23" />
+          <folding>
+            <marker date="1516362122791" expanded="true" signature="50209:50295" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -17818,9 +17863,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/_header.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="486">
+          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding>
+            <marker date="1516362131614" expanded="true" signature="1279:1425" ph="{...}" />
+            <marker date="1516362131614" expanded="true" signature="1300:1425" ph="{...}" />
+            <marker date="1516362131614" expanded="true" signature="1328:1425" ph="{...}" />
+            <marker date="1516362131614" expanded="true" signature="1393:1425" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
