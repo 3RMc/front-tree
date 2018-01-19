@@ -3007,73 +3007,63 @@ button {
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-  header .header-nav {
+  .header-nav {
     display: -ms-inline-grid;
     display: inline-grid;
     -ms-grid-columns: 40% 20% 20% 20%;
         grid-template-columns: 40% 20% 20% 20%;
-    -ms-grid-rows: 130px;
-        grid-template-rows: 130px;
-    min-width: 400px;
+    -ms-grid-rows: 100px;
+        grid-template-rows: 100px;
+    min-width: 480px;
     min-height: 100px;
     width: 100%;
     max-width: 2900px;
-    background: url("../img/svg/header.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-color: #000;
     font-family: 'Marck Script', cursive;
     font-size: 2.5em;
     color: #fff;
   }
-  header .header-nav .header-nav__item a {
+  .header-nav__item a {
     margin-left: 3%;
     color: #fff;
   }
-  header .header-nav .header-nav__item:nth-of-type(1n+2) {
+  .header-nav__item:nth-of-type(1n+2) {
     font-size: 0.6em;
   }
-  header .header-nav .header-nav__item {
+  .header-nav__item {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
     -ms-flex-align: center;
         align-items: center;
-    margin-bottom: 60px;
   }
-  header .header-nav .header-nav__item .header-nav__icon-logo {
-    margin-bottom: -25px;
+  .header-nav__icon-logo {
     width: 2em;
     height: 2em;
   }
-  header .header-nav .header-nav__item .header-nav__icon {
+  .header-nav__icon {
     width: 1em;
     height: 1em;
   }
-  header .header-nav .header-nav__title {
+  .header-nav__title {
     -ms-flex-pack: start;
         justify-content: start;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-  header .header-nav .header-nav__item {
-    margin-bottom: 80px;
-  }
-  header .header-nav .header-nav__item .header-nav__icon-logo {
-    width: 1.8em;
-    height: 1.8em;
+@media (min-width: 766px) and (max-width: 991px) {
+  .header-nav {
+    font-size: 2em;
   }
 }
-@media (min-width: 481px) and (max-width: 991px) {
-  header .header-nav {
-    background-image: none;
-    background-color: #000;
+@media (max-width: 767px) {
+  .header-nav {
+    font-size: 1.5em;
   }
 }
 @media screen and (max-width: 480px) {
-  header .header-nav {
-    background-image: none;
-    background-color: #fff;
+  .header-nav {
+    font-size: 1em;
   }
 }
 .wrapper {

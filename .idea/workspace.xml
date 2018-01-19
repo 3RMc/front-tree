@@ -17306,14 +17306,9 @@
       <file leaf-file-name="_header.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/_header.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-              <folding>
-                <marker date="1516362131614" expanded="true" signature="1279:1425" ph="{...}" />
-                <marker date="1516362131614" expanded="true" signature="1300:1425" ph="{...}" />
-                <marker date="1516362131614" expanded="true" signature="1328:1425" ph="{...}" />
-                <marker date="1516362131614" expanded="true" signature="1393:1425" ph="{...}" />
-              </folding>
+            <state relative-caret-position="254">
+              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -17321,11 +17316,9 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1786">
-              <caret line="3034" column="23" lean-forward="false" selection-start-line="3034" selection-start-column="23" selection-end-line="3034" selection-end-column="23" />
-              <folding>
-                <marker date="1516362122791" expanded="true" signature="50209:50295" ph="{...}" />
-              </folding>
+            <state relative-caret-position="106">
+              <caret line="3032" column="21" lean-forward="false" selection-start-line="3032" selection-start-column="21" selection-end-line="3032" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -17504,12 +17497,12 @@
       <workItem from="1515670144017" duration="13791000" />
       <workItem from="1515775153854" duration="14916000" />
       <workItem from="1515946891074" duration="607000" />
-      <workItem from="1516109678367" duration="30864000" />
+      <workItem from="1516109678367" duration="32905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94586000" />
+    <option name="totallyTimeSpent" value="96627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -17843,16 +17836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="3034" column="23" lean-forward="false" selection-start-line="3034" selection-start-column="23" selection-end-line="3034" selection-end-column="23" />
-          <folding>
-            <marker date="1516362122791" expanded="true" signature="50209:50295" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/modules/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -17861,16 +17844,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="3032" column="21" lean-forward="false" selection-start-line="3032" selection-start-column="21" selection-end-line="3032" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/_header.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-          <folding>
-            <marker date="1516362131614" expanded="true" signature="1279:1425" ph="{...}" />
-            <marker date="1516362131614" expanded="true" signature="1300:1425" ph="{...}" />
-            <marker date="1516362131614" expanded="true" signature="1328:1425" ph="{...}" />
-            <marker date="1516362131614" expanded="true" signature="1393:1425" ph="{...}" />
-          </folding>
+        <state relative-caret-position="254">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

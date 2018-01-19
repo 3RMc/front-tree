@@ -15,95 +15,77 @@
     background-repeat no-repeat
 
 
-    .header-nav
-      display inline-grid
+  .header-nav
+    display inline-grid
 
-      grid-template-columns 40% 20% 20% 20%
-      grid-template-rows 130px
-
-
-      min-width 400px
-      min-height 100px
-      width 100%
-      max-width 2900px
-
-      background url("../img/svg/header.svg")
-      background-size 100%
-      background-repeat no-repeat
-
-      font-family: 'Marck Script', cursive;
-      font-size 2.5em
-
-      color white
+    grid-template-columns 40% 20% 20% 20%
+    grid-template-rows 100px
 
 
-      .header-nav__item a
-        margin-left 3%
-        color white
+    min-width 480px
+    min-height 100px
+    width 100%
+    max-width 2900px
 
-      .header-nav__item:nth-of-type(1n+2)
-        font-size 0.6em
+    background-color black
 
-      .header-nav__item
-        display flex
-        justify-content center
-        align-items center
-        margin-bottom 60px
+    font-family: 'Marck Script', cursive;
+    font-size 2.5em
 
-        .header-nav__icon-logo
-          margin-bottom -25px
-          width 2em
-          height 2em
-
-        .header-nav__icon
-          width 1em
-          height 1em
-
-      .header-nav__title
-        justify-content start
+    color white
 
 
+  .header-nav__item a
+    margin-left 3%
+    color white
 
+  .header-nav__item:nth-of-type(1n+2)
+    font-size 0.6em
 
+  .header-nav__item
+    display flex
+    justify-content center
+    align-items center
 
+  .header-nav__icon-logo
+    width 2em
+    height 2em
 
+  .header-nav__icon
+    width 1em
+    height 1em
 
-@media (min-width: 992px) and (max-width: 1199px)
-  header
-
-      .header-nav
-
-        .header-nav__item
-          margin-bottom 80px
-
-          .header-nav__icon-logo
-            width 1.8em
-            height 1.8em
-
-
-
-
-
-@media (min-width: 481px) and (max-width: 991px)
-  header
-    .header-nav
-      background-image none
-      background-color black
-
+  .header-nav__title
+    justify-content start
 
 
 /*
-@media (max-width: 767px)
+@media (min-width: 992px) and (max-width: 1199px)
 */
 
 
+
+
+
+
+@media (min-width: 766px) and (max-width: 991px)
+
+  .header-nav
+    font-size 2em
+
+
+
+@media (max-width: 767px)
+
+  .header-nav
+    font-size 1.5em
+
+
+
 @media screen and (max-width: 480px)
-  header
-    .header-nav
-      background-image none
-      background-color white
 
-
+  .header-nav
+    font-size 1em
 
 
 
