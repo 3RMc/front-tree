@@ -1,14 +1,21 @@
 header
-    .header-nav
-        .header-nav__title.header-nav__item
-            img(src="../static/img/svg/icon_compass-winds-star-symbol.svg").header-nav__icon-logo
-            a.header-nav__title-logo Port-of-Olio
-        .header-nav__examples.header-nav__item
-            img(src="../static/img/svg/icon_safari.svg").header-nav__icon
-            a Examples
-        .header-nav__services.header-nav__item
-            img(src="../static/img/svg/icon_map.svg").header-nav__icon
-            a Services
-        .header-nav__contacts.header-nav__item
-            img(src="../static/img/svg/icon_helm.svg").header-nav__icon
-            a Contacts
+    .header-logo
+    .header-sandwich(onclick="change(document.getElementById('menu'))")
+        .header-sandwich__lines
+    .header-social
+        .header-social__icon.header-social__slack
+            a
+                include ../../static/img/svg/slack.svg
+        .header-social__icon.header-social__github
+            a
+                include ../../static/img/svg/github.svg
+        .header-social__icon.header-social__vk
+            a
+                include ../../static/img/svg/vk.svg
+        .header-social__icon.header-social__telegram
+            a
+                include ../../static/img/svg/telegram.svg
+.menu-layer#menu-layer
+    .menu#menu
+
+

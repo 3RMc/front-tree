@@ -1,62 +1,159 @@
 /* Большие экраны */
 @media all
   header
-    display grid
+    display flex
+    flex-direction column
+    justify-content space-around
+    align-items center
 
-    grid-template-columns 100%
-    grid-template-rows 100px 500px
-    justify-items center
+    position fixed
 
-    width 100%
-    max-width 1900px
+    width 90px
+    height 100%
+    min-height 300px
 
-    background url("../img/svg/banner-without-header.svg")
-    background-size 100% 100%
-    background-repeat no-repeat
+    background-color white
 
+    box-shadow 0 0 10px rgba(0,0,0,0.5)
 
-  .header-nav
-    display inline-grid
+    z-index 20
 
-    grid-template-columns 40% 20% 20% 20%
-    grid-template-rows 100px
+  .header-logo
+    min-width 45px
+    min-height 49px
 
+    background url("../img/content/logo-black-blu.png")
+    background-size contain
 
-    min-width 480px
-    min-height 100px
-    width 100%
-    max-width 2900px
+    transition: transform .3s linear;
+    order 1
 
-    background-color black
+  .header-logo:hover
+    transform translate(7px,-7px)
 
-    font-family: 'Marck Script', cursive;
-    font-size 2.5em
-
-    color white
+  .header-logo:not(:hover)
+    transform translate(0,0)
 
 
-  .header-nav__item a
-    margin-left 3%
-    color white
-
-  .header-nav__item:nth-of-type(1n+2)
-    font-size 0.6em
-
-  .header-nav__item
+  .header-sandwich
     display flex
     justify-content center
     align-items center
+    order 2
 
-  .header-nav__icon-logo
-    width 2em
-    height 2em
+    margin 10px
 
-  .header-nav__icon
-    width 1em
-    height 1em
+    min-width 40px
+    min-height 40px
 
-  .header-nav__title
-    justify-content start
+  .header-sandwich__lines
+    position absolute
+
+    width 24px
+    height 3px
+
+    background-color #212121
+
+    border-radius 5px 5px
+
+  .header-sandwich__lines:before
+    content ''
+
+    position absolute
+    top -8px
+
+    width 24px
+    height 3px
+
+    background-color #212121
+
+    border-radius 5px 5px
+
+  .header-sandwich__lines:after
+    content ''
+
+    position absolute
+    top 8px
+
+    width 20px
+    height 3px
+
+    background-color #212121
+
+    border-radius 5px 5px
+
+
+  .header-sandwich:hover .header-sandwich__lines:before
+    transition: transform .2s linear;
+    transform translate(0,2px)
+    background-color #00A8E8
+
+  .header-sandwich:hover .header-sandwich__lines
+    transition: transform .2s linear;
+    background-color #00A8E8
+
+  .header-sandwich:hover .header-sandwich__lines:after
+    transition: all .2s linear;
+    transform translate(0,-2px)
+    width 24px
+    background-color #00A8E8
+
+
+  .header-social
+    display flex
+    flex-direction column
+    align-items center
+    justify-content space-between
+    width 90px
+    min-height 158px
+    order 3
+
+  .header-social__icon
+    width 20px
+    height 20px
+    transition: all .2s linear;
+
+  .header-social__icon:hover
+    fill #00A8E8
+    width 25px
+
+
+
+  .menu-layer
+    position fixed
+
+    width 100%
+    height 100%
+
+  .menu-layer_active
+    background-color rgba(0,0,0,0.9)
+    opacity 1
+
+    z-index 5
+
+  .menu
+    position fixed
+    left -390px
+
+    width 400px
+    height 100%
+
+    z-index 10
+
+
+  .menu-active
+    position fixed
+    width 400px
+    height 100%
+
+    background-color #F5F5F5
+
+    z-index 10
+    transition: all .1s linear;
+    transform translate(480px,0)
+
+
+
 
 
 /*
@@ -66,27 +163,63 @@
 
 
 
-
+/*
 
 @media (min-width: 766px) and (max-width: 991px)
 
-  .header-nav
-    font-size 2em
+  header
+    display flex
+    justify-content space-around
+
+    position fixed
+
+    width 100%
+    height 1500px
 
 
+  for n in (1..11)
+    .stroke{n}
+      left n*200px
+
+
+  .stroke
+    counter-increment count
+
+    position absolute
+
+    width 1px
+    height 100%
+
+    background-color black
+
+    opacity: 0.1
+    transform: matrix(1, 0, 0, 1, 0, 0)
 
 @media (max-width: 767px)
 
   .header-nav
     font-size 1.5em
 
-
+*/
 
 @media screen and (max-width: 480px)
+  header
+    flex-direction row
 
-  .header-nav
-    font-size 1em
+    width 100%
+    height 90px
+    min-height 90px
 
+
+  .header-sandwich
+    order 3
+
+
+  .header-social
+    flex-direction row
+    min-width 150px
+    min-height 90px
+    order 2
 
 
 
