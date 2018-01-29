@@ -1,7 +1,8 @@
 header
     .header-logo
-    .header-sandwich(onclick="change(document.getElementById('menu'))")
-        .header-sandwich__lines
+    label.header-sandwich
+        input(type="checkbox" class="header-checkbox" name="header-checkbox" autocomplete="off")
+        span.header-sandwich__lines
     .header-social
         .header-social__icon.header-social__slack
             a
@@ -17,5 +18,4 @@ header
                 include ../../static/img/svg/telegram.svg
 .menu-layer#menu-layer
     .menu#menu
-
 
